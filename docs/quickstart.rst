@@ -1,5 +1,0 @@
-***********
-Quickstart
-***********
-
-under construction

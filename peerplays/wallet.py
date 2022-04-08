@@ -10,7 +10,6 @@ from graphenecommon.exceptions import (
     WalletExists,
     WalletLocked,
 )
-from graphenestorage.exceptions import WrongMasterPasswordException
 from .instance import BlockchainInstance
 
 
@@ -20,10 +19,3 @@ class Wallet(GrapheneWallet):
         # identical to those in peerplays.py!
         self.default_key_store_app_name = "peerplays"
         self.privatekey_class = PrivateKey
-
-    def create(self, pwd):
-        try:
-            self.newWallet(pwd)
-        except WrongMasterPasswordException:
-            raise WalletExists
-

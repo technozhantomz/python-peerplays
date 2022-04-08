@@ -25,7 +25,7 @@ known_chains = {
         "prefix": "TEST",
     },
     "ELIZABETH": {
-        "chain_id": "1d76e264e0a6f27be89d80bbff66c53ea87068bbdd73fc912cbcbcb7be53ec83",
+        "chain_id": "09f618610b6449f230f133addd388dc6dc15072e80e39f2c0d76088550413d47",
         "core_symbol": "TEST",
         "prefix": "TEST",
     },
@@ -34,26 +34,7 @@ known_chains = {
         "core_symbol": "TEST",
         "prefix": "TEST",
     },
-    "IRONA": {
-        "chain_id": "6e50f8aea8dd3886a50321a9c4b5eb0e4498c4487e6d43f16f914329cfabcbff",
-        "core_symbol": "TEST",
-        "prefix": "TEST",
-    },
-    "HERCULES": {
-        "chain_id": "9e770aee9cb04b11f62391b89a38e1ee28981c94e2b8e7047e0902862568d285",
-        "core_symbol": "TEST",
-        "prefix": "TEST"},
-    "FRED": {
-        "chain_id": "6d8462f65dc97688de4cd1e295ecbda8f34ca3def0dab96272faee251761cc08",
-        "core_symbol": "TEST",
-        "prefix": "TEST"},
-    "IRONA": {
-        "chain_id": "bfa03fc73c9310519bf20e30dc1d3130b4871e8ce7e93da4093696a0a21e5dc8",
-        "core_symbol": "TEST",
-        "prefix": "TEST"},
-
 }
 
 # old fred chain_id in the code
 # "chain_id": "735f88594e5b7521047864f7cca7367ff27e95ce7bd40482b85c978d1337f881",
-# "chain_id": "09f618610b6449f230f133addd388dc6dc15072e80e39f2c0d76088550413d47",
