@@ -34,7 +34,7 @@ from graphenebase.objects import Operation as GPHOperation
 from .operationids import operations
 from .types import Enum, Sha256
 
-default_prefix = "PPY"
+default_prefix = "USD"
 
 
 class ObjectId(GPHObjectId):

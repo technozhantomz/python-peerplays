@@ -46,7 +46,7 @@ from .objects import (
     ResolutionConstraint,
 )
 
-default_prefix = "PPY"
+default_prefix = "USD"
 
 
 class Transfer(GrapheneObject):

@@ -89,7 +89,7 @@ def broadcast(ctx, filename):
 
 
 @main.command(help="Obtain a random private/public key pair")
-@click.option("--prefix", type=str, default="PPY", help="The refix to use")
+@click.option("--prefix", type=str, default="USD", help="The refix to use")
 @click.option("--num", type=int, default=1, help="The number of keys to derive")
 def randomwif(prefix, num):
     t = PrettyTable(["wif", "pubkey"])

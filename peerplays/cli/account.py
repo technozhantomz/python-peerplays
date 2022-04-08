@@ -30,7 +30,7 @@ def allow(ctx, foreign_account, permission, weight, threshold, account):
             "Password for Key Derivation", hide_input=True, confirmation_prompt=True
         )
         foreign_account = format(
-            PasswordKey(account, pwd, permission).get_public(), "PPY"
+            PasswordKey(account, pwd, permission).get_public(), "USD"
         )
     pprint(
         ctx.peerplays.allow(

@@ -9,7 +9,7 @@ from graphenebase.account import (
     PrivateKey as GPHPrivateKey,
 )
 
-default_prefix = "PPY"
+default_prefix = "USD"
 
 
 class PasswordKey(GPHPasswordKey):
